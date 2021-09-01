@@ -9,19 +9,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Kanba Board</title>
+  <title>Kanban Board</title>
 </head>
 
 <body>
   <div class="boards">
     <div class="board">
       <h3>Todo</h3>
-      <div class="dropzone">
+      <div class="dropzone" id="dropZone1">
         <div class="card" draggable="true">
           <div class="status green"></div>
-          <div class="content">Teste!</div>
+          <div class="content" id="content">Teste!</div>
         </div>
       </div>
+      <button id="addCard" class="add-card">+ Adicionar card</button>
     </div>
     <div class="board">
       <h3>In Progress</h3>
@@ -31,6 +32,7 @@
           <div class="content">Teste2</div>
         </div>
       </div>
+      <button class="add-card">+ Adicionar card</button>
     </div>
     <div class="board">
       <h3>Done</h3>
@@ -40,6 +42,7 @@
           <div class="content">Teste3</div>
         </div>
       </div>
+      <button class="add-card">+ Adicionar card</button>
     </div>
   </div>
 

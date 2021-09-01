@@ -78,3 +78,23 @@ body {
 .over {
   background-color: #4cd13783;
 }
+
+.add-card {
+  margin: 1rem;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  background: transparent;
+  
+  transition: color, .2s;
+}
+
+.add-card:hover {
+  cursor: pointer;
+  color: #33adff;
+  font-size: small;
+}
+
+*{
+  /* border: 1px solid red; */
+}
